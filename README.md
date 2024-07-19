@@ -67,4 +67,4 @@ JOIN TECHCATALYST_DE.SPATTURI.SONGPLAYS_FACT ON TECHCATALYST_DE.SPATTURI.SONGS_D
 WHERE TECHCATALYST_DE.SPATTURI.SONGPLAYS_FACT.LOCATION = 'Waterloo-Cedar Falls, IA';
 ```
 ### Results of The Query: 
-![results-of-query](query_resutls)
+![results-of-query](query_resutls.jpg)
