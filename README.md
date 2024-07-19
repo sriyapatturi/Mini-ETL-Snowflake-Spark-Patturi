@@ -57,7 +57,7 @@ The Star Schema Design best describes the design for the tables in Snowflake tha
 The purpose of the data lake allowed us to obtain source data and place transformed data in a staging area before it was loaded into various tables within Snowflake. Through the use of Pyspark, we were able to take raw data from the data lake and made it available in a data warehouse for consumption by transforming and cleaning the data. Prior to loading data into the data warehouse(Snowflake database), we had to define the schema for each of the tables. The purpose of loading data into tables within Snowflake and not simply leaving it in an s3 is to allow data analysts at the company to easily work with the data. We want them to be able to make views, visualizations as well as anything else they may need to extract insights from the data and make the decisions in the best interests of Sparkify
 
 # Design Diagram:
-
+![architecture-diagram](architecture_diagram.jpg)
 ## An Example of A Query That I Ran to Extract Insights:
 ```sql
 -- Give me the names of songs that were played in Waterloo-Cedar Falls, IA
